@@ -53,12 +53,15 @@ button {
   gap: .5rem;
 }
 
-.todo-list li {
+.todo-list li{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: .5rem 1rem;
   background-color: #eee;
+}
+.todo-list span {
+  margin-right: auto;
 }
 
 .todo-list li.completed span {
